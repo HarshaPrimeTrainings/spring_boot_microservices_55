@@ -83,18 +83,17 @@ public class OrderService {
 		default:
 			System.out.println("CHOOSE CORRECT SELECTION");
 		}
-		
 		return null;
 	}
 	
 	public Order claculatBill(List<Item> items) {
-		order.setItems(items);
-		int billAmout = 0;
-		for (Item item : items) {
-			billAmout = billAmout+item.getItemPrice();
-		}
-		order.setBillAmount(billAmout);
-		return order;
+		Order order = new Order();
+        order.setItems(items);
+        int billAmount = items.stream()
+                              .mapToInt(Item::getItemPrice)
+                              .sum();
+        order.setBillAmount(billAmount);
+        return order;
 	}
 
 }
