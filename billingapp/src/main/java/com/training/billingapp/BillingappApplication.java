@@ -30,7 +30,9 @@ public class BillingappApplication {
 			case "Y": {
 				Order order = orderSevice.claculatBill(orderlist);
 				System.out.println(" *** BILL AMOUNT *** ");
-				System.out.println(order.getBillAmount());
+				orderlist.forEach(x->System.out.println(x.getItemName()+ " :      " + x.getItemPrice()));
+				System.out.println("----------------- ");
+				System.out.println("BILL ::      "+order.getBillAmount());
 				isBilled = true;
 				break;
 				}
