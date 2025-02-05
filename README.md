@@ -22,3 +22,6 @@ END
 # to execute inparmater procedure
 
 ``` call user_email_in('vivek','hyd')```
+
+# Swagger URL Adress
+http://localhost:8080/swagger-ui.html
