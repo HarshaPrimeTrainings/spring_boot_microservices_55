@@ -27,6 +27,6 @@ END
 http://localhost:8080/swagger-ui.html
 
 # Spring Security Web needs roles
-```insert into roles values(1,'ROLE_USER');
-insert into roles values(2,'ROLE_ADMIN');```
+```insert into roles values(1,'ROLE_USER');```
+```insert into roles values(2,'ROLE_ADMIN');```
 
