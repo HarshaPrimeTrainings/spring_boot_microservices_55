@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+	background-color: lightgray;
+}
+
+#loginwrapper {
+	background: white;
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+}
+
+#singupform {
+	padding: 0 50px;
+}
+
+input{
+width: 18px;
+    height: 24px;
+    box-sizing: border-box;
+    outline: none;
+    width: 45%;
+    }
+    input[type=submit]{
+    cursor: pointer;
+    margin-bottom: 25px;
+    width: 70px;
+    }
+    #error{
+    color: red
+    }
+    #success{
+    color: green
+    }
+</style>
+</head>
+<body>
+	<div id="loginwrapper">
+		<h1>ADD USER DETAILS</h1>
+		<form method="post" id="singupform" th:action="@{/save}">
+			<p>
+				USERNAME: <input type="text" name="username" />
+			</p>
+			<p>
+				PASSWORD: <input type="password" name="password" />
+			</p>
+			<p>
+				EMAIL: <input type="text" name="email" />
+			</p>
+			<p>
+				ADDRESS: <input type="text" name="address" />
+			</p>
+			<p>
+				ROLES: <input type="text" name="rolelist"/>
+			</p>
+			<input type="submit" value="SAVE" />
+		</form>
+	</div>
+</body>
+</html>

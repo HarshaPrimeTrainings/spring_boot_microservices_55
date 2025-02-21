@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<tr th:each="userdetail :${users}">
+			<div>
+				<img src="/images/profileimage.png" alt="profileImage"></img>
+				<p th:text="${userdetail.username}"></p>
+				<p th:text="${userdetail.email}"></p>
+				<p th:text="${userdetail.address}"></p>
+			</div>
+		</tr>
+	</table>
+</body>
+</html>
