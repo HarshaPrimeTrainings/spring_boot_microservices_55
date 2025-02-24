@@ -29,7 +29,7 @@ http://localhost:8080/swagger-ui.html
 # Microservice flow
 ![microservice flow ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/micoservice%20flow.png)
 
-# SPRING SECURITY NEED ROLES, INSERT BELOW ROLES BEFORE CREATING USERS
+# SPRING SECURITY REQUIRES ROLES. INSERT THE ROLES BELOW BEFORE CREATING USERS.
 - insert into roles values(1,'ROLE_USER');
 - insert into roles values(2,'ROLE_ADMIN');
 
