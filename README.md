@@ -29,16 +29,16 @@ http://localhost:8080/swagger-ui.html
 # Microservice flow
 ![microservice flow ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/micoservice%20flow.png)
 
-# Spring Security need Roles, Insert below roles Before creating Users
+# SPRING SECURITY NEED ROLES, INSERT BELOW ROLES BEFORE CREATING USERS
 - insert into roles values(1,'ROLE_USER');
 - insert into roles values(2,'ROLE_ADMIN');
 
-# Create User (SignIn)
+# CREATE USER (SignIn)
 ![token generate/ user login ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/usercreate.png)
 
 
-# Token Generate/ user login
+# TOKEN GENERATION/ USER LOGIN
 ![Create user ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/tokengenerate.png)
 
-# Access Users
+# ACCESS USERS
 ![access users ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/accesusers.png)
