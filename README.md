@@ -26,9 +26,10 @@ END
 # Swagger URL Adress
 http://localhost:8080/swagger-ui.html
 
+# Microservice flow
+![microservice flow ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/micoservice%20flow.png)
 
 # Spring Security need Roles, Insert below roles Before creating Users
-
 - insert into roles values(1,'ROLE_USER');
 - insert into roles values(2,'ROLE_ADMIN');
 
