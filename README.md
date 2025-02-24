@@ -26,7 +26,18 @@ END
 # Swagger URL Adress
 http://localhost:8080/swagger-ui.html
 
-# Spring Security Web needs roles
-```insert into roles values(1,'ROLE_USER');```
-```insert into roles values(2,'ROLE_ADMIN');```
 
+# Spring Security need Roles, Insert below roles Before creating Users
+
+- insert into roles values(1,'ROLE_USER');
+- insert into roles values(2,'ROLE_ADMIN');
+
+# Create user
+![token generate/ user login ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/usercreate.PNG)
+
+
+# token generate/ user login
+![Create user ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/tokengenerate.PNG)
+
+# access users
+![access users ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/accesusers.PNG)
