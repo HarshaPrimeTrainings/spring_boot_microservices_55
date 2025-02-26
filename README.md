@@ -44,7 +44,7 @@ http://localhost:8080/swagger-ui.html
 ![access users ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/accesusers.png)
 
 # KEYCLOAK CONFIGURATION
-- Download KEYCLOAK and extract
+- Download KEYCLOAK and extract from https://www.keycloak.org/downloads .
 - Go to bin folder and run `kc.bat start-dev`
 - By default KEYCLOAK run on 8080 if you want to change port `kc.bat start-dev --http-port=<portnumber>`
 - Access KEYCLOAK from your browser http://localhost:8080 fot the first time it will ask to set admin user and password.
