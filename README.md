@@ -51,6 +51,7 @@ http://localhost:8080/swagger-ui.html
 - Then login to admin console
 ![KEYCLOAK ADMIN ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/keycloakadmin.PNG)
 1. Create a New Realm
+![Realm ADMIN ](https://github.com/HarshaPrimeTrainings/spring_boot_microservices_55/blob/main/realm.PNG)
 2. Create a New Client
 	- Enter the Client ID, then click Next.
 	- In the Third/Last Tab:
