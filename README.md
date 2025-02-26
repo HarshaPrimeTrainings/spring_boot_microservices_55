@@ -1,6 +1,6 @@
 # spring_boot_microservices_55
 
-#Store Procedure without In paramater
+# Store Procedure without In paramater
 ```
 CREATE PROCEDURE `user_demo`()
 BEGIN 
