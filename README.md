@@ -96,9 +96,9 @@ If you get some error like
 }
 ``
 
-- Check the credntials If still same error do below steps.
-From left sidebar select Users menu and in Details tab Fill the following fields:
-- Email
+Check the credentials. If still the error persists then follow below steps:
+- From the left sidebar, select the Users menu. In the Details tab, fill in the following fields:
+	- Email
 	- Switch Email verified control to On
 - From left sidebar select Authentication menu and in Required actions tab Disable these actions:
 	- Verify Profile
