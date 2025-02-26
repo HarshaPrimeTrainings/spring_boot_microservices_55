@@ -75,23 +75,28 @@ http://localhost:8080/swagger-ui.html
 
 	- Go to Realm Settings (bottom-right corner).
 	- Click OpenID Endpoint Configuration to view all available endpoints, such as:
-```{
+
+ ``
+ {
   "issuer": "http://localhost:8080/realms/master",
   "authorization_endpoint": "http://localhost:8080/realms/master/protocol/openid-connect/auth",
   "token_endpoint": "http://localhost:8080/realms/master/protocol/openid-connect/token",
   "introspection_endpoint": "http://localhost:8080/realms/master/protocol/openid-connect/token/introspect",
   "userinfo_endpoint": "http://localhost:8080/realms/master/protocol/openid-connect/userinfo",
   "end_session_endpoint": "http://localhost:8080/realms/master/protocol/openid-connect/logout"
-}```
+} 
+``
 # Trouble Shooting
-If you get some error like 
-``` {
+If you get some error like
+
+`` 
+{
     "error": "invalid_grant",
     "error_description": "Account is not fully set up"
-}```
+}
+``
 
-Check the credntials If still same error do below steps.
-
+- Check the credntials If still same error do below steps.
 From left sidebar select Users menu and in Details tab Fill the following fields:
 - Email
 	- Switch Email verified control to On
