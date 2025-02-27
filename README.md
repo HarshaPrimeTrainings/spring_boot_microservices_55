@@ -120,7 +120,7 @@ ENTRYPOINT [ "java","-jar","app1.jar" ]
 EXPOSE 8080
 ```
 - Image Build
-`docker build -f Dockerfile -t mydemoimage . ("." is current location)`
+`docker build -f Dockerfile -t mydemoimage .` ("." is current location)
 - Running Image
 `docker run -p 7070:7070 mydemoimage`
 
