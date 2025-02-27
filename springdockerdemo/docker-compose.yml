@@ -1,0 +1,17 @@
+---
+version: "3"
+services:
+  springapp1:
+    image: app1image
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+  springapp2:
+    image: app2image
+    build:
+      context: ./../springdockerdemoapp/
+      dockerfile: Dockerfile
+    ports:
+      - 7070:7070
