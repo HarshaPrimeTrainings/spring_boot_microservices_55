@@ -147,6 +147,6 @@ services:
 - Running Docker applications by using docker-compose
 	- Simply run `docker-compose up` (By default docker-compose look docker-compose.yml in current directory).
 	- shutting down `docker-compose down`
-- docker-compose.yml in other location use below command.
+- If docker-compose.yml in other location use below command.
 	- `docker-compose.yml -f <location of docker-compose.yml> up`
 	- shutting down `docker-compose -f <location of docker-compose.yml> down`
